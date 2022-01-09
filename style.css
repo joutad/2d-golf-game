@@ -1,0 +1,104 @@
+#game {
+    background-color: aliceblue;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 1px solid black;
+}
+#hud {
+    padding: 1px;
+    border: 1px solid black;
+    color: lightgreen;
+}
+#powerbar {
+    background-color: #b6b6b6;
+    border: 1px solid black;
+}
+#backtomainmenubutton {
+    margin-top: 24px;
+    position: absolute;
+    top: 74%;
+    left: 48%;
+    font-size: 16px;
+}
+#mMenu {
+    background-image: url(assets/mainmenu_background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: -10px;
+    background-repeat: no-repeat;
+}
+.mainmenu {
+    margin-bottom: 10px;
+}
+#sologamebutton {
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#multiplayerbutton {
+    position: absolute;
+    top: 8%;
+    left: 43%;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#underMenu {
+    background-color: lightgreen;
+    display: table-cell;
+    vertical-align: bottom;
+}
+body {
+    margin:0;
+    background-color: aliceblue;
+}
+.gameBody {
+    background-color: rgb(247, 247, 252);
+    margin: 4px;
+}
+
+.header {
+    height: 40px;
+    background-color: #f0f8ff;
+}
+
+.mainBody {
+    position: absolute;
+    background-color: aliceblue;
+    top: 244px;
+    bottom: 20px;
+    width:100%;
+}
+
+.content {
+    color:#fff;
+}
+
+.footer {
+    height: 40px;
+    background-color: lightgreen;
+    
+    position: absolute;
+    bottom: 0;
+    width:100%;
+}
+#titleText {
+    top: 0px;
+    text-align: center;
+    font-size: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#author {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 93.5%;
+}
+#noteForMultiplayer {
+    position: absolute;
+    top: 2%;
+    left: 43.05%;
+    font-family: Arial, Helvetica, sans-serif;
+}
